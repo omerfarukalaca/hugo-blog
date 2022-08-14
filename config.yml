@@ -1,0 +1,34 @@
+baseURL: http://omerfarukalaca.com  /
+title: omerfarukalaca
+paginate: 5
+theme: PaperMod
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "omerfarukalaca personal blog"
+  author: Ömer Faruk Alaca
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  # comments: false
+  images: ["papermod-cover.png"]
+
+  profileMode:
+    enabled: true
+    title: 👋 Hi! I'm Ömer
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/omerfarukalaca"
+    - name: linkedin
+      url: "https://linkedin.com/in/omerfarukalaca"
